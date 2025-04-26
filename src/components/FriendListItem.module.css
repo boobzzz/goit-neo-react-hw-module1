@@ -1,0 +1,20 @@
+.listItem {
+    flex: calc(1 / 5);
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.status {
+    font-size: 16px;
+    color: red;
+}
+
+.online {
+    color: green;
+}
