@@ -20,7 +20,7 @@ export default function FriendListItem({ name, status, avatar }) {
                 {status ? 'Online' : 'Offline'}
             </p>
         </li>
-    )
+    );
 }
 
 FriendListItem.propTypes = {

@@ -1,0 +1,30 @@
+.table,
+.table th,
+.table td {
+    border: 1px solid black;
+}
+
+.table th,
+.table td {
+    width: 5rem;
+    height: 2rem;
+}
+
+.table {
+    margin-top: 40px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.header th {
+    font-weight: 500;
+}
+
+.body tr:nth-child(even) {
+    background-color: lightgray;
+}
